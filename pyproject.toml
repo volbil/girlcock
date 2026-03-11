@@ -1,0 +1,13 @@
+[project]
+name = "girlcock"
+version = "0.1.0"
+description = "Better twitter previews"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiogram>=3.23.0",
+]
+
+[tool.ruff]
+line-length = 80
+exclude = [".venv", "venv"]

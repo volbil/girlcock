@@ -1,0 +1,27 @@
+*/**/__pycache__/*
+__pycache__/
+venv/*
+config.py
+playground.py
+settings.toml
+.venv
+
+# Linters
+.pytest_cache
+.ruff_cache
+
+# misc
+.DS_STORE
+.DS_Store
+*.db
+
+# PyRight
+pyrightconfig.json
+
+# PyCharm
+.idea
+
+# VsCode
+.vscode/*
+
+.profile_info
