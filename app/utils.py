@@ -16,6 +16,6 @@ def get_bot():
 
 
 def find_twitter_links(text: str) -> list[str]:
-    pattern = r'(?:https?://)?(?:www\.)?(?:x\.com|twitter\.com)/[^\s<>"\']*'
+    pattern = r'(?:https?://)?(?:www\.)?\b(?:x\.com|twitter\.com)/[^\s<>"\']*'
     matches = re.findall(pattern, text)
     return [m if m.startswith("http") else f"https://{m}" for m in matches]
